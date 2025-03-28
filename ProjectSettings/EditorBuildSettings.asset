@@ -4,7 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/VRCDefaultWorldScene.unity
+    guid: fd0a48e887367be4db13077ccbce8474
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: d45d04b658265ef4fa04b55863752474,
       type: 2}
