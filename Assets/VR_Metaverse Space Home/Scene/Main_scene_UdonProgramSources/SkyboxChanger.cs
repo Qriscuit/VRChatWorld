@@ -11,32 +11,47 @@ using VRC.Udon;
 public class SkyboxChanger : UdonSharpBehaviour
 {
     [SerializeField]
-    //private DataList materials = new DataList();
     private Material[] materials = new Material[0];
     [SerializeField]
     private float swapTime = 30f;
 
-    int currentMat = 0;
-    float timer = 0;
+    [UdonSynced, FieldChangeCallback(nameof(CurrentMaterial))]
+    private int currentMat = 0;
+
+
+    private float timer = 0;
     void Start()
     {
+
         if(materials.Length > 0)
         {
-            RenderSettings.skybox = materials[currentMat];
+            RenderSettings.skybox = materials[currentMat];  
             //DynamicGI.UpdateEnvironment();
         }
 
     }
 
+    public int CurrentMaterial
+    {
+        set
+        {
+            currentMat = value;
+            RenderSettings.skybox = materials[currentMat];
+        }
+        get { return currentMat; }
+    }
+
     private void FixedUpdate()
     {
-        timer += Time.fixedDeltaTime;
-        if (timer > swapTime && materials.Length > 0)
+        if (Networking.IsOwner(gameObject))
         {
-            currentMat = (currentMat + 1) % materials.Length;
-            RenderSettings.skybox = materials[currentMat];
-            //DynamicGI.UpdateEnvironment();
-            timer = 0;
+            timer += Time.fixedDeltaTime;
+            if (timer > swapTime && materials.Length > 0)
+            {
+                CurrentMaterial = (CurrentMaterial + 1) % materials.Length;
+                //DynamicGI.UpdateEnvironment();
+                timer = 0;
+            }
         }
     }
 }
