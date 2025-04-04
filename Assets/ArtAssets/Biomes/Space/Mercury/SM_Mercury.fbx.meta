@@ -1,9 +1,14 @@
 fileFormatVersion: 2
-guid: ee3858f1fc2f3ce4098647690c0ead54
+guid: 1ee358802fb7b9b4c9c18e8557f6f7c3
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mercury
+    second: {fileID: 2100000, guid: 114f83fdc311a1b4897b3905909cb976, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -3,7 +3,17 @@ guid: dc6804ca450e10c41863e2d79d38efa6
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Atmosphere
+    second: {fileID: 2100000, guid: 019ab05ea7f48d34b91f676750de2317, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Venus
+    second: {fileID: 2100000, guid: e7b3d1e9084361647a66125f47ac3635, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
