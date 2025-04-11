@@ -38,6 +38,7 @@ public class SkyboxChanger : UdonSharpBehaviour
             currentMat = value;
             RenderSettings.skybox = materials[currentMat];
         }
+
         get { return currentMat; }
     }
 
