@@ -1,0 +1,60 @@
+# Blender 3.5.0 MTL File: 'Black poplar tree .blend'
+# www.blender.org
+
+newmtl Bark
+Kd 0.800000 0.800000 0.800000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Ks Bark Texture_SPEC.tga
+map_Pr Bark Texture_AO.tga
+map_Bump -bm 1.000000 Bark Texture_NORM.png
+
+newmtl Bark.001
+Kd 0.800000 0.800000 0.800000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Ks Bark Texture_SPEC.tga
+map_Pr Bark Texture_AO.tga
+map_Bump -bm 1.000000 Bark Texture_NORM.png
+
+newmtl Leaf_Texture
+Kd 0.800000 0.800000 0.800000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 2
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Ks Untitled-1 copy_SPEC.tga
+map_Pr Untitled-1 copy_AO.tga
+map_d Untitled-1 copy.png
+map_Bump -bm 1.000000 Untitled-1 copy_NORM.png
+
+newmtl leaf
+Kd 0.500518 0.800000 0.231930
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+Pr 0.400000
+Pm 0.000000
