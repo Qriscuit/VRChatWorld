@@ -54,6 +54,8 @@ Shader "Custom/HurshFadeCubemap" {
                 // Blend between the cubemap color and black based on the _Fade parameter.
                 col.rgb = lerp(col.rgb, float3(0, 0, 0), _Fade);
 
+
+
                 col.a = 1.0;
                 return col;
             }
