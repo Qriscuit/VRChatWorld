@@ -9,5 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/VRCDefaultWorldScene.unity
     guid: fd0a48e887367be4db13077ccbce8474
   m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 1c8157ba890e0a84981c3721964f93bd,
+      type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: d45d04b658265ef4fa04b55863752474,
       type: 2}
