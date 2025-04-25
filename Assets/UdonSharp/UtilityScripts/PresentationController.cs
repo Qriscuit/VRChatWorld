@@ -8,7 +8,8 @@ using VRC.Udon;
 
 public class PresentationController : UdonSharpBehaviour
 {
-    [SerializeField] RawImage PresentationScreen;
+    [SerializeField] GameObject PresentationScreen;
+    private RawImage screenImage;
     [SerializeField] Texture2D[] _TestSlides;
 
     [UdonSynced, FieldChangeCallback(nameof(SlideIndex))]
@@ -31,6 +32,11 @@ public class PresentationController : UdonSharpBehaviour
 
     void Start()
     {
+        if(PresentationScreen)
+        {
+            screenImage = PresentationScreen.GetComponent<RawImage>();
+        }
+        
         TimeElapsed = 0;
         NextSlide();
     }
@@ -47,6 +53,6 @@ public class PresentationController : UdonSharpBehaviour
 
     private void NextSlide()
     {
-        PresentationScreen.texture = _TestSlides[SlideIndex]; 
+        screenImage.texture = _TestSlides[SlideIndex]; 
     }
 }
