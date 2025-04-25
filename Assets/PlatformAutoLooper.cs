@@ -58,7 +58,6 @@ public class PlatformAutoLooper : MonoBehaviour
                 {
                     if (m_prefabsToShowcase.Count > 1)
                     {
-                        Debug.Log("This is entered");
                         m_prefabsToShowcase[m_prefabIdx].SetActive(false);
                         //Wrapping increment
                         m_prefabIdx = (m_prefabIdx+1) % (m_prefabsToShowcase.Count);
