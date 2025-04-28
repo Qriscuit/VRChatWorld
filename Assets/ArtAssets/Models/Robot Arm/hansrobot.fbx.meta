@@ -3,7 +3,12 @@ guid: 6c90a94ac82c64e44a5351ae0081bea9
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hansrobottt2_svgBlinn1
+    second: {fileID: 2100000, guid: 051255e1bc17c6e44ba52e29fe841eeb, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -3,7 +3,12 @@ guid: 57eb69411075c9c40ac9ccca0057b435
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dinosaur
+    second: {fileID: 2100000, guid: 051255e1bc17c6e44ba52e29fe841eeb, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

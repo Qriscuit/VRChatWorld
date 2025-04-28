@@ -8,32 +8,32 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: 9014_BunkBed
-    second: {fileID: 2100000, guid: b210ad2f2a96115479b125f548138fce, type: 2}
+    second: {fileID: 2100000, guid: 051255e1bc17c6e44ba52e29fe841eeb, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: 9014_BunkBed_Fabric2
-    second: {fileID: 2100000, guid: b210ad2f2a96115479b125f548138fce, type: 2}
+    second: {fileID: 2100000, guid: 051255e1bc17c6e44ba52e29fe841eeb, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: 9014_BunkBed_Metal
-    second: {fileID: 2100000, guid: b210ad2f2a96115479b125f548138fce, type: 2}
+    second: {fileID: 2100000, guid: 051255e1bc17c6e44ba52e29fe841eeb, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: 9014_BunkBed_WoodBlend
-    second: {fileID: 2100000, guid: b210ad2f2a96115479b125f548138fce, type: 2}
+    second: {fileID: 2100000, guid: 051255e1bc17c6e44ba52e29fe841eeb, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material #1656
-    second: {fileID: 2100000, guid: b210ad2f2a96115479b125f548138fce, type: 2}
+    second: {fileID: 2100000, guid: 051255e1bc17c6e44ba52e29fe841eeb, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material #1658
-    second: {fileID: 2100000, guid: b210ad2f2a96115479b125f548138fce, type: 2}
+    second: {fileID: 2100000, guid: 051255e1bc17c6e44ba52e29fe841eeb, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
